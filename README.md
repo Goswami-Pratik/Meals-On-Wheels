@@ -48,3 +48,31 @@ These groups of people may be struggling financially so may need our assistance 
 [Elderly Information - Website](https://www.ageuk.org.uk/globalassets/age-uk/documents/reports-and-publications/reports-and-briefings/money-matters/poverty_in_later_life_briefing_2019.pdf#:~:text=As%20set%20out%20above%2C%2016,relative%20poverty%20and%20material%20deprivation)
 
 - 1.9 million (16 per cent) of pensioners in the UK live in poverty
+
+## Screenshots 📷
+
+### Homepage
+
+![Homepage 1 of 2](/Demo%20screenshots/Homepage%201%20of%202.png)
+![Homepage 2 of 2](/Demo%20screenshots/Homepage%202%20of%202.png)
+
+### Registration Page
+
+![Registration Page](/Demo%20screenshots/Registeration.png)
+
+### About Us Page
+
+![About Us Page](/Demo%20screenshots/About%20Us.jpg)
+
+### Contribution Page
+
+![Contribution Page 1 of 2](/Demo%20screenshots/Contributions%201%20of%202.jpg)
+![Contribution Page 2 of 2](/Demo%20screenshots/Contributions%202%20of%202.png)
+
+### Donation Page
+
+![Donation Page](/Demo%20screenshots/Donate.png)
+
+## [License](https://opensource.org/licenses/MIT)
+
+By contributing, you agree that your contributions will be licensed under the MIT license.
