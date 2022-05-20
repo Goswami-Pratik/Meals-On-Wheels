@@ -1,0 +1,395 @@
+.Favourites, .Payments, .Addresses, .Mydetails{
+  display : flex;
+  justify-content: center;
+}
+
+
+.main_container{
+  background-color: #1A1A1D;
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+flex-shrink: 0;
+flex-grow: 1;
+flex-basis: 0;
+margin-left: 250px;
+padding: 20px;
+margin-top: 0px;
+background-color: #6f0527;
+}
+
+.column{
+padding: 20px;
+}
+
+.card img{
+height: 150px;
+width: 170px;
+position: relative;
+ margin-top: -160px;
+margin-left: -260px; 
+padding: 10px;
+border-radius: 30px;
+}
+
+.res_details{
+background-color: #9a1750;
+margin-top: -64px;
+margin-left: -40px;
+width: 450px;
+border-radius: 10px;
+padding: 10px;
+}
+
+.card .res_name{
+font-size: x-large;
+font-weight: bolder;
+color: #e3afbc;
+display: flex;
+flex-wrap: wrap;
+margin-left: 230px;
+padding-top: 20px;
+}
+
+.card .res_add{
+font-size: smaller;
+color:#ee4c7c;
+margin-left: 130px;
+margin-top: 0px;
+}
+
+.card .order_no{
+/* color: gray;
+font-size: small; */
+color:#ee4c7c;
+margin-left: 130px;
+margin-top: px;
+}
+
+.order_details{
+margin-top: 10px;
+padding: 5px;
+color: #c3073f;
+font-family:'Times New Roman', Times, serif;
+}
+
+.order_details .item{
+margin-right: 190px;
+margin-top: 15px;
+}
+
+.price{
+position: absolute;
+margin-top: -38px;
+margin-left: 300px;
+margin-top: -20px;
+}
+
+.del_date{
+margin-right: 120px;
+font-size: small;
+font-weight: bold;
+margin-top: 5px;
+}
+.or_date{
+margin-right: 120px;
+font-size: small;
+font-weight: bold;
+margin-top: 5px;
+}
+
+.btn{
+display: flex;
+flex-direction: row;
+margin-left: 200px;
+margin-top: 30px;
+}
+
+.button {
+border: none;
+color: white;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 10px;
+margin: -1px 2px;
+transition-duration: 0.4s;
+border: 1px solid #5d001e;
+border-radius: 5px;
+background-color: #5d001e;
+color: white;
+}
+
+.button:hover {
+cursor: pointer;
+background-color:#6f0527;
+}
+
+@media screen and (max-width: 1000px) {
+.column {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+}
+
+/* Style the counter cards */
+.card {
+padding: 40px;
+width: 450px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+margin-top: 10px;
+text-align: center;
+background-color: #1A1A1D;
+}
+
+.card:hover{
+cursor: pointer;
+box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+margin-top: -1px;
+transition: 0.4s;
+}
+
+/* Favourites */
+
+
+.card .rating{
+color: #ee4c7c;
+margin-left: 130px;
+}
+
+.es_time{
+margin-left: 300px;
+margin-top: 3px;
+font-size: small;
+font-weight: bold;
+}
+
+.offer1{
+margin-right: 150px;
+margin-top: -10px;
+font-size: small;
+font-weight: bold;
+}
+.offer2{
+margin-right: 150px;
+font-size: small;
+font-weight: bold;
+}
+
+
+
+/* Addresses */
+
+
+.card_add {
+padding: 40px;
+width: 100%;
+height: 90%;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+margin-top: 10px;
+text-align: center;
+background-color: #1A1A1D;
+}
+
+.card_add:hover{
+cursor: pointer;
+box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2);
+transition: 0.4s;
+}
+
+.add_details{
+margin-top: -30px;
+padding: 5px 40px;
+display : flex;
+flex-direction: column;
+border-radius: 10px;
+margin-left: -180px;
+font-size: large;
+font-weight: bold;
+color: #c3073f;
+font-family:'Times New Roman', Times, serif;
+}
+
+
+.add_details span{
+display: flex;
+flex-wrap: wrap;
+color:#e3afbc;
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.house_no{
+display: flex;
+flex-wrap: wrap;
+margin-left: 130px;
+padding: 7px;
+}
+
+.address, .city, .code, .mark, .btn_add{
+display: flex;
+flex-wrap: wrap;
+margin-left: 130px;
+padding: 7px;
+}
+
+/* ------------- Main.js --------------- */
+
+.profile_details{
+display: flex;
+flex-direction: row; 
+justify-content: space-around;
+padding: 20px;
+margin-left: 250px;
+/* background-color:#e3e2df; */
+background-color:#6f0527;
+color : white;
+font-size: larger;
+font-weight: bold;
+}
+
+.left_content{
+display: flex;
+flex-direction: row; 
+padding: 20px;
+}
+
+.p_name{
+  font-size: 2.5rem;
+}
+
+/* .p_img{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 5px solid white;
+}
+
+.p_img:hover{
+transition: 0.4s;
+cursor: pointer;
+border: 0px solid #5d001e;
+} */
+
+.user_details{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+text-align:center
+}
+
+.right_content{
+display: flex;
+flex-direction: column; 
+padding: 50px;
+}
+
+.p_edit_btn {
+border: none;
+color: white;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+transition-duration: 0.4s;
+border: 1px solid #5d001e;
+border-radius: 5px;
+background-color: #5d001e;
+}
+
+.p_edit_btn:hover {
+cursor: pointer;
+background-color:#841035;
+color: white; 
+}
+
+.user_content_details{
+display: flex;
+flex-direction: row;
+padding: 15px;
+}
+
+
+/*-------- Modal -----------*/
+
+.my_modal{
+  background-color:#5d001e;
+  color: white;
+}
+
+.my_modal h1{
+  padding: 10px;
+}
+
+.my_form{
+  padding: 10px;
+  background-color:#9a1750;
+  display: flex;
+  flex-direction: column;
+}
+
+.my_form input{
+  background-color:#1A1A1D;
+  color: white;
+}
+
+.input_email, .input_name, .input_address, .input_number{
+  padding: 20px;
+}
+
+.update_btn{
+border: none;
+color: white;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 10px;
+margin: -1px 2px;
+transition-duration: 0.4s;
+border: 1px solid #c3073f;
+border-radius: 5px;
+background-color: #c3073f;
+color: white;
+}
+
+.update_btn:hover{
+cursor: pointer;
+background-color: #9a1750;
+}
+
+.close_btn{
+  color: #9a1750;
+  margin-left: 1200px;
+  padding: 5px;
+}
+
+.close_btn:hover{
+  cursor: pointer;
+}
+
+
+/* ------------ Loading... ------------- */
+
+.loader {
+  border: 16px solid #c3073f; /* Light grey */
+  border-top: 16px solid #9a1750; /* Blue */
+  border-radius:50%;
+  width: 60px;
+  height: 60px;
+  margin-left: 450px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

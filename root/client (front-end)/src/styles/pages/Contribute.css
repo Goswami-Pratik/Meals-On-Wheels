@@ -1,0 +1,25 @@
+.contribute-title {
+  color: #a3c824;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 15% 10px 15%;
+}
+
+.MuiCardContent-root {
+  background-color: #41B3A3; /*#69737f  ABD6DFFF*/
+  color: #f8f8f3;
+}
+
+#cardTitle {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "FrutigerLTPro-Bold", tahoma, sans-serif;
+}
+
+#cardInfo {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "FrutigerLTPro-Bold", tahoma, sans-serif;
+} 

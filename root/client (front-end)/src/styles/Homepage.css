@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap");
+
+.mainPage {
+  height: 92.1vh;
+  background-image: url("/src/img/white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 15px;
+}
+
+.Surround {
+  padding-top: 180px;
+}
+
+.headers {
+  font-family: "Arvo", serif;
+  font-size: 36px;
+  color: #2ed370;
+  margin-left: 22px;
+}
+
+.searchBar {
+  display: flex;
+  margin-left: -8.5rem;
+}
+
+.location {
+  color: #2ed370;
+  position: relative;
+  top: 9px;
+  left: 27px;
+}
+.address {
+  display: flex;
+  font-size: 20px;
+  margin-top: 0.5rem;
+}
+.address input {
+  color: silver;
+  height: 40px;
+  width: 370px;
+  background-color: #312f2f;
+  padding-left: 30px;
+  padding-right: 10px;
+  font-family: "Arvo", serif;
+  border-radius: 5px;
+}
+
+.signIn {
+  display: flex;
+  tab-size: 1;
+  padding: 2px;
+  color: #2ed370;
+  font-family: "Arvo", serif;
+  margin-left: 18px;
+}
+.Findfood-button {
+  display: flex;
+  background-color: #312f2f;
+  height: 40px;
+  color: silver;
+  padding: 10px 5px 0px 5px;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+  font-family: "Arvo", serif;
+  margin-top: 0.9rem;
+}
+
+.Findfood-button:hover {
+  background-color: #272525;
+  transition: all 0.2s ease-out;
+  color: #2ed370;
+  border-radius: 1px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 960px) {
+  .headers {
+    font-size: 20px;
+    color: #2ed370;
+    margin-left: 19px;
+  }
+  .address input {
+    width: 210px;
+  }
+  .signIn {
+    margin-left: 18px;
+    font-size: 14px;
+  }
+  .Findfood-button {
+    font-size: 11px;
+  }
+}

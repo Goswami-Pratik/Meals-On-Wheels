@@ -1,0 +1,93 @@
+.form-shape{
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    background-color: rgb(31, 28, 28);  
+    margin-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 0.2cm;
+    margin-top: 2cm;
+}
+.form-contents{
+    margin: 1rem; 
+    margin-top: 1rem; 
+    text-align: center;
+    
+}
+
+.form-button{
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-button button {
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: 0.2s;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+    animation: ease-in;
+}
+
+.form-button :hover{
+    background: antiquewhite;
+    transform: scale(1.1);
+    animation: ease-out;
+}
+
+.form-text{
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.form-input{
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid white;
+    text-align:start;
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+}
+.form-input-big{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+}
+.form-input-big ::placeholder{
+    padding-left: 100px;  
+    padding-bottom: 100px;
+}
+
+
+
+.background{
+    background: rgb(255, 255, 255);
+    height: 110vh;
+    display: grid;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.About,
+.Problem,
+.Facts,
+.Help,
+.What_Can_You_Do {
+  display: flex;
+  height: 90vh;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 90%;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.178);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2ed370;
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cb5cff;
+}
+
+@import "./Homepage.css";
+@import "./Footer.css";
+@import "./HomepageExtension.css";
+@import "./Card.css";
+@import "./pages/About.css";
+@import "./pages/TermsConditions.css";
+@import "./pages/PrivacyPolicy.css";
+@import "./pages/FAQ.css";
+@import "./pages/Donate.css";
+@import "./pages/contact.css";
+@import "./pages/help.css";
+
+/* @import "../components/pages/ProfilePages/Style/Navbar.css" */

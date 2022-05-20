@@ -1,0 +1,18 @@
+.Help{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.Help h1{
+    color: green;
+    font-style: italic;
+}
+
+.Help p{
+    padding: 10px;
+    font-size: 18px;
+    text-align: left;
+}

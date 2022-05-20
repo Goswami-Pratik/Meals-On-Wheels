@@ -1,0 +1,100 @@
+.helpimg {
+  width: 100%;
+  background-color: gray;
+}
+
+.background {
+  height: 90vh;
+  background-color: gray;
+  min-height: 6rem;
+  padding-bottom: 1px;
+  padding-top: 5px;
+}
+
+.local {
+  color: white;
+  font-family: "Arvo", serif;
+  font-size: 36px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #de5a5a;
+  border-radius: 2rem;
+}
+.imgs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.serving {
+  margin-left: 11rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+.salt {
+  margin-left: 4.5rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+.delivery {
+  margin-left: 2.8rem;
+  width: 6rem;
+  height: 6rem;
+}
+.text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.servingText {
+  width: 25rem;
+  padding-left: 7.3rem;
+  font-family: "Arvo", serif;
+}
+
+.saltText {
+  width: 20rem;
+  padding-right: 2rem;
+  font-family: "Arvo", serif;
+}
+
+.deliveryText {
+  width: 20rem;
+  padding-right: 7rem;
+  font-family: "Arvo", serif;
+}
+
+.wrk {
+  color: white;
+  font-family: "Arvo", serif;
+  font-size: 36px;
+  display: flex;
+  margin-top: 4rem;
+  justify-content: space-evenly;
+  background-color: #de5a5a;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 1240px) {
+  .background {
+    height: 210vh;
+  }
+  .imgs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .servingNtext {
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+  }
+  .saltNtext {
+    margin-left: 2.7rem;
+    margin-bottom: 2rem;
+  }
+  .deliveryNtext {
+    margin-left: 8.7rem;
+  }
+}

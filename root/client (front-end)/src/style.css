@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    padding: 0;
+    background: url(food.jpg);
+    background-size: cover;
+    font-family:sans-serif
+    
+}
+.loginbox{
+    width:320px;
+    height:420px;
+    background: #071D28;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+
+    padding:70px 30px;
+    opacity: 0.9;
+
+}
+h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color:#fff;
+}
+.loginbox p{
+    margin:0;
+    padding: 0;
+    font-weight:bold;
+    color:#fff;
+    
+}
+.loginbox input{
+    width:100%;
+    margin-bottom:20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+}
+.loginbox input[type ="submit"]
+{
+    border:none;
+    outline:none;
+    height:40px;
+    background'fb2525;
+    color:#fff;
+    font-size:18px;
+    border-radius:20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #071D28;
+}
+li a {
+  display: block;
+  color:#fff;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+      font-weight:bold;
+}
+li {
+  float: left;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 20px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}

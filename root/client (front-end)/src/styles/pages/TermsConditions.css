@@ -1,0 +1,23 @@
+.TermsConditions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .main_heading{
+    Padding: 10px
+  }
+  
+  .TermsConditions p{
+    padding: 5px;
+  }
+  
+  .TermsConditions ol{
+    padding-left: 30px;
+  }
+  
+  .TermsConditions li{
+    padding-top: 5px;
+  }
+  

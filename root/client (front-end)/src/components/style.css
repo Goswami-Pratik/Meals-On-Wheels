@@ -1,0 +1,274 @@
+.browseList_background{
+position:fixed;
+width: 100%;
+top:80px;
+left:0;
+padding:0;
+margin:0;
+height: 100%;
+background-image: url("./potato.jpg");
+background-size: cover;
+}
+.backgroundbox{
+    position:fixed;
+    width: 100%;
+    top:81px;
+    left:0;
+    padding:0;
+    margin:0;
+    height: 100%;
+    background-image: url("./food.jpg");
+    background-size: cover;
+}
+ 
+
+
+.browseList{
+
+    width:1200px;
+    height:1400x;
+    background: #1B1A1A;
+    top:50%;
+    left:50%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+   opacity: 0.9;
+    padding:70px 30px;
+    display: flex;
+    
+}
+
+
+.browseList tr{
+    color:#42A46D;
+}
+
+.browseList h1{
+    color:#fff;
+}
+
+
+.browseList button{
+    margin-right: 10px;
+    display: inline-block;
+    border:none;
+    outline:none;
+    height:40px;
+    background:#42A46D;
+    color:#fff;
+    font-size:18px;
+    font-family:arvo bold;
+    
+    
+
+    
+    
+}
+
+.browseList p{
+    color:#42A46D;
+    font-size: 25px;
+
+}
+.browseList description{
+    color: #fff;
+    font-size: 20px;
+
+}
+.browseList h1{
+  text-align: center;
+
+}
+
+.browseCardContainer{
+    width:300px;
+    overflow: hidden;
+    border: 1px solid #42A46D;
+    margin-bottom: 35px;
+
+}
+
+
+.browseCardTitle{
+    color:#fff;
+    padding-left: 10px;
+}
+.browseCardType{
+    color:#fff;
+    padding-left: 10px;
+}
+.browseCardDesc{
+    color:#fff;
+    padding-left: 10px;
+}
+
+.cart-table th,td{
+    padding: 10px;
+    color:#42A46D;
+    font-size: 25px;
+
+}
+
+
+
+.cart-table td{
+    color:#fff
+}
+
+
+.checkoutbox{
+
+    width: 500px;;
+    height: 500px;;
+    background: #1B1A1A;
+    top:50%;
+    left:50%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    opacity: 0.9;
+    padding:30px 30px;
+  
+    
+}
+
+.checkoutbox p{
+    color:#42A46D;
+    font-size: 25px;
+
+}
+.checkoutbox description{
+    color: #fff;
+    font-size: 20px;
+
+}
+.checkoutbox h1{
+  text-align: center;
+
+}
+
+.checkoutbox button{
+    margin-right: 10px;
+    display: inline-block;
+    border:none;
+    outline:none;
+    height:40px;
+    background:#42A46D;
+    color:#fff;
+    font-size:18px;
+    font-family:arvo bold;
+    
+    
+}
+
+.checkoutbox input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.checkout_btn{
+    margin: 0;
+    position: absolute;
+    top: 66%;
+    left: 48%;
+    margin-right: 10px;
+    display: inline-block;
+    border:none;
+    outline:none;
+    height:40px;
+    background:#42A46D;
+    color:#fff;
+    font-size:18px;
+    font-family:arvo bold;
+
+
+}
+.cardImage{
+    overflow: hidden;
+    height: 200px;
+}
+
+.addFoodBtn{
+    margin: 0;
+    position: absolute;
+    top: 66%;
+    left: 48%;
+    margin-right: 10px;
+    display: inline-block;
+    border:none;
+    outline:none;
+    height:40px;
+    background:#42A46D;
+    color:#fff;
+    font-size:18px;
+    font-family:arvo bold;
+
+}
+
+.confirmToCartBox{
+    width: 200px;;
+    height: 200px;;
+    background: #1B1A1A;
+    top:50%;
+    left:50%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    opacity: 0.9;
+    padding:15px 30px;
+  
+}
+.confirmToCartBox button{
+    margin-right: 10px;
+    display: inline-block;
+    border:none;
+    outline:none;
+    height:40px;
+    background:#42A46D;
+    color:#fff;
+    font-size:18px;
+    font-family:arvo bold;
+    
+
+
+}
+.confirmToCartBox p{
+
+    color:#42A46D;
+    font-size: 25px;
+
+}
+
+.cardImageCheckout{
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+}
+
+.delivery_background{
+    color: #fff;
+}
+
+.deliveryGif{
+    position: absolute;
+    top:20%;
+    left:26%;
+
+}
+.deliverytext{
+    position: absolute;
+    top:15%;
+    left:41%;
+}
+.deliverytext p{
+    color:black;
+    font-size: 20px;
+    font:arvo bold ;
+}

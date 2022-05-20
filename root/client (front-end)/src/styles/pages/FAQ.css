@@ -1,0 +1,27 @@
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .main_heading{
+    Padding: 10px
+  }
+
+  .FAQ h1{
+      color: rgb(90, 218, 86);
+  }
+
+  .FAQ h3{
+      font-weight: bold;
+  }
+
+  .FAQ p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .FAQ p{
+    padding: 5px;
+  }
+  

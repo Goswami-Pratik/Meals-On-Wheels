@@ -1,0 +1,224 @@
+.titleLine {
+    color: #7cc242;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15% 10px 15%;
+}
+
+.intro {
+    font-size: 21px;
+    line-height: 1.4;
+    margin: 15px 15% 20px 15%;
+    text-align: left;
+}
+
+#pageDivider {
+    background: #7cc242;
+    height: 1px;
+    margin: 10px 15% 10px 15%;
+}
+
+/* ----------Fact 1------------*/
+
+.fact1-left-img {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.fact1-middle-title {
+    color: #7cc242;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: bold;
+    font-family: "FrutigerLTPro-Bold", tahoma, sans-serif;
+    margin: 0 0 15px 100px;
+    width: 150%;
+}
+
+.fact1-middle-info {
+    font-size: 24px;
+    line-height: 1.4em;
+    font-family: "Segoe UI Light", serif;
+    margin-left: 100px;
+    width: 150%;
+}
+
+.fact1-right-title {
+    color: #7cc242;
+    font-size: 20px;
+    font-family: "FrutigerLTPro-Bold", tahoma, sans-serif;
+    margin-left: 340px;
+    width: 75%;
+}
+
+.fact1-right-info {
+    font-size: 18px;
+    line-height: 1.4em;
+    font-family: "Segoe UI", tahoma, sans-serif;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 250px;
+    width: 60%;
+}
+
+/* ----------Fact 2------------*/
+
+.fact2-left-img {
+    width: 130%;
+}
+
+.fact2-middle-title {
+    color: #5ebfbc;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "FrutigerLTPro-Bold", tahoma, sans-serif;
+    margin: 0 0 15px 100px;
+    width: 150%;
+}
+
+.fact2-right-title {
+    color: #5ebfbc;
+    font-size: 20px;
+    font-family: "FrutigerLTPro-Bold", tahoma, sans-serif;
+    margin-left: 270px;
+    width: 75%;
+}
+
+.fact2-right-info {
+    font-size: 18px;
+    line-height: 1.4em;
+    font-family: "Segoe UI", tahoma, sans-serif;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 250px;
+    width: 60%;
+}
+
+/* ----------Fact 3------------*/
+
+.fact3-left-img {
+    width: 130%;
+}
+
+.fact3-middle-title {
+    color: #cf8688;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "FrutigerLTPro-Bold", tahoma, sans-serif;
+    margin: 0 0 15px 100px;
+    width: 150%;
+}
+
+.fact3-right-title {
+    color: #cf8688;
+    font-size: 20px;
+    font-family: "FrutigerLTPro-Bold", tahoma, sans-serif;
+    margin-left: 350px;
+    width: 75%;
+}
+
+.fact3-right-info {
+    font-size: 18px;
+    line-height: 1.4em;
+    font-family: "Segoe UI", tahoma, sans-serif;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 250px;
+    width: 60%;
+}
+
+/* ----------Fact 4------------*/
+
+.fact4-left-img {
+    width: 130%;
+}
+
+.fact4-middle-title {
+    color: #ffd300;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "FrutigerLTPro-Bold", tahoma, sans-serif;
+    margin: 0 0 15px 100px;
+    width: 150%;
+}
+
+.fact4-middle-info {
+    font-size: 24px;
+    line-height: 1.4em;
+    font-family: "Segoe UI Light", serif;
+    margin-left: 100px;
+    width: 150%;
+}
+
+.fact4-right-title {
+    color: #ffd300;
+    font-size: 20px;
+    font-family: "FrutigerLTPro-Bold", tahoma, sans-serif;
+    margin-left: 340px;
+    width: 75%;
+}
+
+.fact4-right-info {
+    font-size: 18px;
+    line-height: 1.4em;
+    font-family: "Segoe UI", tahoma, sans-serif;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 250px;
+    width: 60%;
+}
+
+/* ----------Column/Row------------*/
+
+.fact1:after, .fact2:after, .fact3:after, .fact4:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.factcolumns {
+    float: left;
+    display: inline;
+}
+
+.left {
+    margin-left: 15%;
+    width: 15%;
+}
+
+.right {
+    margin-right: 15%;
+    width: 40%;
+}
+
+.middle {
+    width: 15%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+a {
+    color: #bb4291;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+strong {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: FrutigerLTPro-Light, tahoma, sans-serif;
+}
+
+b {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+

@@ -1,0 +1,92 @@
+.cardSection {
+  display: flex;
+  width: 85vw;
+  margin: 10px auto;
+  margin-top: 3px;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+
+.card-content {
+  color: white;
+  font-family: "Arvo", serif;
+  font-size: 13px;
+  margin: 10px;
+}
+
+.card-container {
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.3s;
+  animation: ease-in;
+}
+.card-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+.image-container img {
+  overflow: hidden;
+  height: 200px;
+}
+
+.card-container {
+  margin: 4rem;
+  margin-top: 2rem;
+  background-color: #1b1a1a;
+  letter-spacing: 0.1px;
+}
+
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.card-button button {
+  padding: 0.5rem;
+  background-color: #de5a5a;
+  border: none;
+  transition: 0.2s;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+}
+
+.card-button button:hover {
+  background: rgba(212, 30, 39, 0.1);
+  transform: scale(1.1);
+}
+
+.card-button a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-family: "Arvo", serif;
+}
+
+@media screen and (max-width: 1240px) {
+  .cardSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card-container {
+    width: 300px;
+  }
+  .image-container img {
+    width: 300px;
+  }
+  .extend {
+    height: 220vh;
+  }
+}

@@ -1,0 +1,46 @@
+:root {
+  --primary: #312f2f;
+}
+
+.signup-button {
+  margin-left: -20px;
+  margin-right: 20px;
+}
+
+.login-button {
+  margin-right: 20px;
+}
+
+.logout-button {
+  margin-right: 20px;
+}
+
+.login-button, .signup-button, .logout-button {
+  padding: 8px 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  width: 7rem;
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--primary);
+  font-family: "Arvo", sans-serif;
+}
+
+.login-button:hover, .signup-button:hover, .logout-button:hover {
+  padding: 6px 18px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: #2ed370;
+  border-radius: 4px;
+  border: 2px solid var(--primary);
+}
+
+@media screen and (max-width: 1420px) {
+  .login-button, .signup-button, .logout-button {
+    width: 6.6rem;
+    margin-right: 1rem;
+  }
+}

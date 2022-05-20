@@ -1,0 +1,155 @@
+.navbar {
+  background: #181818;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  height: 80px;
+  font-size: 1.2rem;
+}
+
+.logo {
+  text-decoration: none;
+  justify-self: start;
+  font-size: 2rem;
+  font-family: "Pattaya", sans-serif;
+  color: #2ed370;
+  margin-left: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  align-self: center;
+}
+
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  z-index:1;
+}
+
+.navbar_links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar_links:hover {
+  transition: all 0.2s ease-out;
+  background-color: transparent;
+  color: #2ed370;
+  border-radius: 1px;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.navbar_links_mobile {
+  display: none;
+}
+
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
+    display: none;
+  }
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .navbar_links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .navbar_links:hover {
+    color: white;
+    background-color: #cb5cff;
+    border-radius: 0;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-10%, -10%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .navbar_links_mobile {
+    display: block;
+    text-align: center;
+    background: #cb5cff;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    font-size: 1.5rem;
+  }
+
+  .navbar_links_mobile:hover {
+    background: #2ed370;
+    color: white;
+    transition: 250ms;
+  }
+
+  .signup-button {
+    display: none;
+  }
+}

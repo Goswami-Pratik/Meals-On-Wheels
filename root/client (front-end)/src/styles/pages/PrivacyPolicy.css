@@ -1,0 +1,23 @@
+.PrivacyPolicy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .main_heading{
+    Padding: 10px
+  }
+  
+  .PrivacyPolicy p{
+    padding: 5px;
+  }
+  
+  .PrivacyPolicy ul{
+    padding-left: 30px;
+  }
+  
+  .PrivacyPolicy li{
+    padding-top: 5px;
+  }
+  
